@@ -2,7 +2,7 @@ import cv2
 
 import imutils
 
-img = cv2.imread('novitech.png')
+img = cv2.imread('initial.jpeg')
 
 resizedImg = imutils.resize(img, width=50)
 
